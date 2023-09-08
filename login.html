@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tantangan Praktikum</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <hr>
+
+    <div class="grid">
+      <div>
+        <form action="/action_page.php">
+          <fieldset>
+           <legend><h3>Login:</h3></legend>
+           <label for="fname">Email:</label><br>
+           <input type="text" id="email" name="email"><br><br>
+           <label for="lname">Password</label><br>
+           <input type="text" id="password" name="password"><br><br>
+    
+           <input type="submit" value="Submit">
+          </fieldset>
+         </form>
+      </div>
+      <div>
+        <form action="/action_page.php">
+          <fieldset>
+           <legend><h3>Register:</h3></legend>
+           <label for="fname">Nama Lengkap:</label><br>
+           <input type="text" id="fname" name="namalengkap"><br><br>
+           <label for="lname">Email</label><br>
+           <input type="text" id="lname" name="email"><br><br>
+           <label for="lname">Pekerjaan</label><br>
+           <select name="Pekerjaan" id="Pekerjaan">
+            <option value="volvo">Mahasiswa</option>
+            <option value="saab">Asisten Dosen</option>
+            <option value="mercedes">Dosen</option>
+           </select>
+          <br><br>
+          <label for="lname">Password</label><br>
+          <input type="text" id="password" name="password"><br><br>
+    
+           <input type="submit" value="Submit">
+          </fieldset>
+         </form>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+  
