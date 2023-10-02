@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../jeje.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+/*<!--.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; */
+
+h1 {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffc0cb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bc8f8f;
+}
+
+/*.container {
+  display: flex; Menggunakan Flexbox 
+  flex-direction: row; Susun elemen dalam satu baris 
+  align-items: center; Pusatkan elemen secara vertikal 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}/*
+.container a {
+  margin-right: 10px; /* Jarak antara tombol */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Pusatkan elemen horizontal */
+  justify-content: center; /* Pusatkan elemen vertikal */
+  height: 100vh; /* Gunakan seluruh tinggi tampilan */
+  margin: 0;
+}
+.container {
+  text-align: center; /* Pusatkan teks */
+}
+.container a {
+  margin: 10px; /* Jarak antara tombol */
+}
